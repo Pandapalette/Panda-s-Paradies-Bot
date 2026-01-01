@@ -15,18 +15,18 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 # ===== KONFIGURATION =====
 # WICHTIG: Trage hier deine IDs ein!
-OWNER_ID = 1243911882918596620  # DEINE Discord User-ID hier eintragen!
-WILLKOMMEN_CHANNEL_ID = 1456062600319336585  # ID vom Willkommens-Channel
-REGELN_CHANNEL_ID = 1456060478206902314  # ID vom Regeln-Channel
-ROLLEN_CHANNEL_ID = 1456062681688703059  # ID vom Rollen-Channel
-TICKET_CHANNEL_ID =  1456121961879961652 # ID vom Ticket-Channel
-TICKET_CATEGORY_ID = 1456122068792905790  # ID der Ticket-Kategorie
-MOD_ROLE_ID = 1456126185703477388  # ID der Moderator-Rolle
-SUPPORT_ROLE_ID = 1456126308894507009  # ID der Support-Rolle (optional)
-LOG_CHANNEL_ID = 1456122520867574015  # ID für Mod-Logs (optional)
-AUTO_REPORT_CHANNEL_ID = 1456122558179966987  # ID für Auto-Reports (WICHTIG!)
-CREATE_VOICE_CHANNEL_ID = 1456124880318890115  # ID vom "Erstelle deinen Channel"
-VOICE_CATEGORY_ID = 1456065231338995890  # ID der Voice-Kategorie
+OWNER_ID = 0  # DEINE Discord User-ID hier eintragen!
+WILLKOMMEN_CHANNEL_ID = 0  # ID vom Willkommens-Channel
+REGELN_CHANNEL_ID = 0  # ID vom Regeln-Channel
+ROLLEN_CHANNEL_ID = 0  # ID vom Rollen-Channel
+TICKET_CHANNEL_ID = 0  # ID vom Ticket-Channel
+TICKET_CATEGORY_ID = 0  # ID der Ticket-Kategorie
+MOD_ROLE_ID = 0  # ID der Moderator-Rolle
+SUPPORT_ROLE_ID = 0  # ID der Support-Rolle (optional)
+LOG_CHANNEL_ID = 0  # ID für Mod-Logs (optional)
+AUTO_REPORT_CHANNEL_ID = 0  # ID für Auto-Reports (WICHTIG!)
+CREATE_VOICE_CHANNEL_ID = 0  # ID vom "Erstelle deinen Channel"
+VOICE_CATEGORY_ID = 0  # ID der Voice-Kategorie
 
 # ===== BLACKLIST WÖRTER =====
 # Extreme Wörter (INSTANT BAN + Nachricht löschen)
